@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="neos-docs.meister.id" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="neos-docs.meister.id">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/.vitepress/dist/" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

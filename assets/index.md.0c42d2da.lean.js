@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a as n}from"./app.61bf2141.js";const _='{"title":"Home","description":"","frontmatter":{"home":true},"headers":[],"relativePath":"index.md"}',a={},i=n("",6),s=[i];function r(d,c,l,p,u,h){return o(),t("div",null,s)}var b=e(a,[["render",r]]);export{_ as __pageData,b as default};

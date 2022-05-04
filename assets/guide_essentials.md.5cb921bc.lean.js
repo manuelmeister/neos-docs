@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as t,a as o}from"./app.61bf2141.js";const f='{"title":"Essentials","description":"","frontmatter":{},"headers":[],"relativePath":"guide/essentials.md"}',n={},a=o("",3),i=[a];function c(r,l,d,p,_,h){return t(),s("div",null,i)}var b=e(n,[["render",c]]);export{f as __pageData,b as default};

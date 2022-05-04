@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="821fda4c-2e74-44f9-bc62-a260c14da72e" name="neos-docs.meister.id" url="neos-docs.meister.id">
+        <fileTransfer rootFolder="/home/eggworks/public_html/neos-docs.meister.id" accessType="SFTP" host="s013.cyon.net" port="22" sshConfigId="854f8cd1-86ad-4616-8a6c-5aa140ef29ed" sshConfig="eggworks@s013.cyon.net:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

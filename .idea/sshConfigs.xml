@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="s013.cyon.net" id="854f8cd1-86ad-4616-8a6c-5aa140ef29ed" port="22" nameFormat="DESCRIPTIVE" username="eggworks" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

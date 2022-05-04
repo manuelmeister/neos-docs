@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a as c}from"./app.61bf2141.js";const f='{"title":"Core Concepts","description":"","frontmatter":{},"headers":[],"relativePath":"guide/essentials/concepts.md"}',s={},a=c("",3),n=[a];function i(r,_,d,p,l,h){return o(),e("div",null,n)}var m=t(s,[["render",i]]);export{f as __pageData,m as default};
