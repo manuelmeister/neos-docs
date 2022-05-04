@@ -1,4 +1,4 @@
-# Neos Dev Docs Improvements
+# Neos Dev Docs Proposal
 **This is a work in progress.**
 
 This should be viewed as a suggestion of how the documentation could look like and how it should be structured to be more accessible for beginners and also advanced users.
