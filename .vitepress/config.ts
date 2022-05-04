@@ -8,7 +8,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     title: 'Neos Dev Docs',
     description: 'Neos CMS Developer Documentation',
     srcDir: '.',
-    base: '/',
+    base: process.env.NODE_ENV === 'production' ? '/neos-docs' : '/',
     scrollOffset: 'header',
     markdown: {
         config: (md) => {
