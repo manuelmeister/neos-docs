@@ -25,7 +25,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                 text: 'Docs',
                 items: [
                     {text: 'Guide', link: '/guide/introduction'},
-                    {text: 'Tutorial', link: '/tutorial'},
+                    {text: 'Tutorials', link: '/tutorials'},
                     {text: 'Examples', link: '/examples/hello-world'},
                     {text: 'Quick Start', link: '/guide/quickstart'},
                 ]
