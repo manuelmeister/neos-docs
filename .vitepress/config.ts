@@ -178,6 +178,14 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                             text: 'CLI', link: '/guide/tooling/cli'
                         }
                     ]
+                },
+                {
+                    text: '📚 Extras',
+                    children: [
+                        {
+                            text: 'Ways of using Neos', link: '#'
+                        }
+                    ]
                 }
             ],
             '/examples': [
@@ -196,6 +204,9 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                 {
                     text: 'Fusion',
                     children: [
+                        {
+                            text: 'Syntax', link: '/api/fusion/syntax'
+                        },
                         {
                             text: 'Objects', link: '/api/fusion/objects'
                         },
