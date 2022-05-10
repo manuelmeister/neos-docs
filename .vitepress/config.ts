@@ -26,7 +26,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                 items: [
                     {text: 'Guide', link: '/guide/introduction'},
                     {text: 'Tutorial', link: '/tutorial'},
-                    {text: 'Examples', link: '/examples'},
+                    {text: 'Examples', link: '/examples/hello-world'},
                     {text: 'Quick Start', link: '/guide/quickstart'},
                 ]
             },
@@ -184,7 +184,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                 {
                     text: 'Examples',
                     children: [
-                        {text: 'Hello World', link: '#'},
+                        {text: 'Hello World', link: '/examples/hello-world'},
+                        {text: 'Bootstrap Card', link: '/examples/bootstrap-card'},
                         {text: 'Editable', link: '#'},
                         {text: 'Images', link: '#'},
                         {text: 'Custom NodeType', link: '#'}
