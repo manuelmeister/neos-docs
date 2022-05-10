@@ -46,6 +46,13 @@ a[href="#"]::after {
     font-weight: 380;
 }
 
+a.secondary-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--c-brand);
+    font-weight: inherit!important;
+}
+
 .btn {
     display: inline-block;
     font-weight: 560;
