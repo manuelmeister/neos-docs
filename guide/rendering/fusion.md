@@ -1,12 +1,11 @@
 # Fusion
 
-Fusion is a declarative templating language that is used together with [Eel expressions](/guide/rendering/eel).
-While the syntax may look similar to JavaScript, it doesn't have a procedural character.
-This means Fusion is more like [Twig](https://twig.symfony.com/), where you define your templates and partials and include
-and iterate over them. Additionally, you can extend and granular override the templates.
+Fusion is a declarative templating language. This means that you define your templates and partials and include and iterate over your data.
+Additionally, you can extend and override existing templates granular.
 
 The language itself is built around objects that define the rendering structure.
-Every object prototype works differently; but you basically define keys-value properties of objects. 
+Every object prototype works differently; but basically you define keys-value properties of objects. 
+
 The body of fusion objects is like an associative array. Certain objects have special properties that are predefined, e.g. 
 the `renderer` property inside the `Fusion:Component` object. The current context is given to the The value of this property is returned to render the component.
 
@@ -21,6 +20,11 @@ prototype(MyComponent) < prototype(Fusion:Component) {
 #### Preview
 
 [String: value]{.preview}
+
+::: tip CAUTION
+While the syntax may look similar to JavaScript, it is something you probably haven't seen before. It doesn't have a procedural character, but it has an object character like JSON.
+Except that you can define rules for every property like an `@if` and merge multiple JSON objects, process that huge object tree and render it.
+:::
 
 ### What is it?
 ::: info Content
