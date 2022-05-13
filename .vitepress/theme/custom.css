@@ -10,6 +10,10 @@ body {
     font-weight: 380;
 }
 
+blockquote {
+    color: #757575;
+}
+
 a[href="#"] {
     opacity: .5;
 }
