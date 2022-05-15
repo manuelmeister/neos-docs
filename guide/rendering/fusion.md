@@ -1,5 +1,8 @@
 # Fusion
 
+> This page assumes you've already read the [Rendering Basics](/guide/essentials/rendering){.secondary-link}.
+> Read that first if you are new to neos rendering.
+
 Fusion is a declarative templating language. This means that you define your templates and partials and include and iterate over your data.
 Additionally, you can extend and override existing templates granular.
 
