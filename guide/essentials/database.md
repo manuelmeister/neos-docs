@@ -1,9 +1,11 @@
 # Database
 
-Neos stores the whole data inside a database, which is organized as a Content Repository (CR).
-Imagine a table of contents. Every section is identified by a unique path.
-The Content Repository works the same. Everything you see in the navigation tree in Neos is a node, that can be nested
-indefinitely. If you can think of your data as a tree, then you can build it with Neos.
+Neos provides an abstraction layer for accessing data from the database.
+This level is called the content repository (CR). With the CR, direct database queries become unnecessary.
+
+You can imagine the content repository as a tree, that is organized in a hierarchical and structured way.
+Every node is identified by a unique path to the trunk. In Fact, everything you see in the navigation tree in Neos is a node,
+that can be nested indefinitely. If you can think of your data as a tree, then you can build it with Neos.
 
 ![Content Repository](https://docs.neos.io/_Resources/Persistent/2b70f22b3e3d1526ea8160ca67d03e699d1d6fa0/content.dimensions.svg)
 
