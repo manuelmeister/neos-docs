@@ -11,7 +11,7 @@ const {Layout} = DefaultTheme
     <Layout>
       <template #home-hero>
         <div class="banner">
-          <img width="400" src="https://raw.githubusercontent.com/neos/brand/e52c18d3ace329133afdf0a2073f6cc672d0dcb0/logos/Neos/neos_negative_light.svg" alt="Neos Logo">
+          <img width="400" height="110" src="/neos-logo-light.svg" alt="Neos Logo">
         </div>
       </template>
     </Layout>

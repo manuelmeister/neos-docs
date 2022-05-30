@@ -7,6 +7,9 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     lang: 'en-US',
     title: 'Neos Dev Docs',
     description: 'Neos CMS Developer Documentation',
+    head: [
+        ['meta', { name: 'tags', content: 'neos, docs, fusion, afx, developer, code' }],
+    ],
     srcDir: '.',
     base: process.env.NODE_ENV === 'production' ? '/neos-docs' : '/',
     scrollOffset: 'header',
