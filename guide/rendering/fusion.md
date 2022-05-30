@@ -10,11 +10,11 @@ The language itself is built around objects that define the rendering structure.
 Every object prototype works differently; but basically you define keys-value properties of objects. 
 
 The body of fusion objects is like an associative array. Certain objects have special properties that are predefined, e.g. 
-the `renderer` property inside the `Fusion:Component` object. The current context is given to the The value of this property is returned to render the component.
+the `renderer` property inside the `Neos.Fusion:Component` object. The current context is given to the The value of this property is returned to render the component.
 
 #### Example
 ```php
-prototype(MyComponent) < prototype(Fusion:Component) {
+prototype(MyComponent) < prototype(Neos.Fusion:Component) {
     myProp = 'value'
     renderer = ${'String: ' + props.myProp}
 }
