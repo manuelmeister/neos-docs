@@ -4,6 +4,7 @@ import Example from './components/Example.vue'
 import Tutorial from './components/Tutorial.vue'
 import YoutubeEmbed from './components/YoutubeEmbed.vue'
 import './custom.css'
+import './fonts.css'
 
 export default {
     ...DefaultTheme,

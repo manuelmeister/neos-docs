@@ -8,8 +8,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     title: 'Neos Dev Docs',
     description: 'Neos CMS Developer Documentation',
     head: [
-        ['meta', { name: 'tags', content: 'neos, docs, fusion, afx, developer, code' }],
-        ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com/', crossorigin: '' }],
+        ['meta', { name: 'tags', content: 'neos, docs, fusion, afx, developer, code' }]
     ],
     srcDir: '.',
     base: process.env.NODE_ENV === 'production' ? '/neos-docs' : '/',

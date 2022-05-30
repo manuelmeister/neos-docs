@@ -13,7 +13,6 @@ const {Layout} = DefaultTheme
         </div>
       </template>
     </Layout>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@380;540;600&display=swap" rel="stylesheet">
   </div>
 </template>
 
