@@ -9,6 +9,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     description: 'Neos CMS Developer Documentation',
     head: [
         ['meta', { name: 'tags', content: 'neos, docs, fusion, afx, developer, code' }],
+        ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com/', crossorigin: '' }],
     ],
     srcDir: '.',
     base: process.env.NODE_ENV === 'production' ? '/neos-docs' : '/',
@@ -221,11 +222,11 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                 {text: 'NodeType', link: '#'},
                 {text: 'FlowQuery', link: '#'}
             ]
-        },
-        algolia: {
-            apiKey: 'your_api_key',
-            indexName: 'index_name'
-        }
+        }//,
+        // algolia: {
+        //    apiKey: 'your_api_key',
+        //    indexName: 'index_name'
+        //}
     },
 
     vite: {
