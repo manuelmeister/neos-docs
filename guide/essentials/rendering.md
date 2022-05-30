@@ -1,5 +1,10 @@
 # Rendering
 
+To display your content in the browser you need to render it as a HTML page.
+Fusion is the central data transformation engine for Neos.
+It enables you to create a variety of formats (like HTML, AMP HTML, RSS, JSON...) from the same contents.
+To make this happen Fusion fetches data, transforms it and sends the output to the client. That's Fusion's core business.
+
 ::: info Content
 What can you achieve? Try to create a metaphor for what is possible with fusion, to improve the mental model of fusion.
 
