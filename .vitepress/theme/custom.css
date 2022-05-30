@@ -26,6 +26,9 @@ a[href="#"]::after {
     font-weight: 540 !important;
 }
 
+.logo {
+    aspect-ratio: 67 / 75;
+}
 
 .lead {
     font-size: 1.2rem;

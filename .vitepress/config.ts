@@ -22,7 +22,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     },
 
     themeConfig: {
-        logo: 'https://raw.githubusercontent.com/neos/brand/e52c18d3ace329133afdf0a2073f6cc672d0dcb0/logos/Avatars/neos_avatar_primary.svg',
+        logo: '/neos-logo-small.svg',
         nav: [
             {
                 text: 'Docs',
