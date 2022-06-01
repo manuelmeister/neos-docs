@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manuelmeister.github.io/docs-neos/sitemap.xml
