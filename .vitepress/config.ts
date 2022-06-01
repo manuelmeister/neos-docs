@@ -20,6 +20,9 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
             md.use(markdownItAttrsSpans)
         }
     },
+    srcExclude: [
+        '**/README.md',
+    ],
 
     themeConfig: {
         logo: '/neos-logo-small.svg',
@@ -228,6 +231,7 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
         //}
     },
 
+    mpa: true,
     vite: {
         server: {
             host: true,
