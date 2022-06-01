@@ -30,6 +30,44 @@ a[href="#"]::after {
     aspect-ratio: 67 / 75;
 }
 
+.beta-badge::after ,
+a.nav-bar-title::after {
+    content: "beta";
+    font-size: 10px;
+    background: #03a9f4;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 14px;
+    margin-left: 5px;
+}
+
+.beta-badge {
+    position: relative;
+}
+
+.beta-badge::after {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    transform: rotate(7deg);
+    display: inline-block;
+}
+
+.nav-links > .item:last-of-type .nav-link {
+    background: var(--c-brand);
+    padding: 2px 8px;
+    border-radius: 52px;
+}
+
+.nav-links > .item:last-of-type .item {
+    border-bottom: none;
+}
+
+.nav-links > .item:last-of-type:hover,.nav-links > .item:last-of-type .item.active {
+    border-bottom: none;
+    color: white;
+}
+
 .lead {
     font-size: 1.2rem;
     font-weight: 380;

@@ -2,7 +2,7 @@
 home: true
 ---
 
-# Neos Developer Documentation
+# [Neos Developer Documentation]{.beta-badge}
 Combining content and application {.lead}
 
 ::: warning Info

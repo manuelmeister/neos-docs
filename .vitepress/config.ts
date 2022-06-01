@@ -6,7 +6,7 @@ import markdownItAttrsSpans from 'markdown-it-bracketed-spans'
 export default defineConfigWithTheme<DefaultTheme.Config>({
     lang: 'en-US',
     title: 'Neos Dev Docs',
-    description: 'Neos CMS Developer Documentation',
+    description: 'Neos CMS Developer Documentation unofficial beta',
     head: [
         ['meta', { name: 'tags', content: 'neos, docs, fusion, afx, developer, code' }]
     ],
@@ -55,6 +55,10 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                     {text: 'Releases', link: 'https://www.neos.io/features/release-process.html'},
                     {text: 'Blog', link: 'https://www.neos.io/blog.html'}
                 ]
+            },
+            {
+                text: 'Unofficial',
+                link: '/disclaimer'
             }
         ],
         sidebar: {
@@ -223,7 +227,8 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
                 {text: 'Eel', link: '#'},
                 {text: 'NodeType', link: '#'},
                 {text: 'FlowQuery', link: '#'}
-            ]
+            ],
+            '/disclaimer': false
         }//,
         // algolia: {
         //    apiKey: 'your_api_key',
