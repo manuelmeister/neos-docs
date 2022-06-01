@@ -30,6 +30,11 @@ a[href="#"]::after {
     aspect-ratio: 67 / 75;
 }
 
+.custom-block.details {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .beta-badge::after ,
 a.nav-bar-title::after {
     content: "beta";
@@ -71,6 +76,19 @@ a.nav-bar-title::after {
 .lead {
     font-size: 1.2rem;
     font-weight: 380;
+}
+
+.api-name {
+    display: inline-block;
+    float: right;
+}
+
+.api-name + h3 {
+    border-bottom: 1px solid var(--c-brand);
+}
+
+.api-name code {
+    background: transparent;
 }
 
 @media screen and (min-width: 420px) {
