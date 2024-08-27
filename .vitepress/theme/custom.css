@@ -5,6 +5,10 @@
     --font-family-base: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
+html {
+    scroll-padding-top: calc(var(--header-height) + 10px);
+}
+
 body {
     letter-spacing: -.2px;
     font-weight: 380;

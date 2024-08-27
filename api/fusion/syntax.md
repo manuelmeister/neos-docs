@@ -1,7 +1,9 @@
+url: /api/fusion/syntax
 # Fusion Syntax
 
 ## Literals
-```php
+
+```neosfusion
 bookTitle = 'The Guide'
 chapterTitle = "Universe"
 answer = 42
@@ -9,36 +11,41 @@ isAwesome = true
 ```
 
 ## Comments
-```php
+
+```neosfusion
 // Line comment
 
 # Another line comment
 
 /*
- * Multiline comment
- */
+* Multiline comment
+*/
 ```
 
-## Expressions
-```php
-caluclated = ${'USD ' + 1337}
+## Eel Expressions
+
+```neosfusion
+calculated = ${'USD ' + 1337}
 rounded = ${Math.floor(3.14)}
 ```
-If you want to know more about what is possible inside the expressions, read the section about [eel expressions and eel helpers](/guide/rendering/eel).
+
+If you want to know more about what is possible inside the expressions, read the section about [eel expressions and eel helpers](/api/eel/syntax).
 
 ## Objects
 
-### Property Definition
-```php
-obj = {
+### Property Definition 
+
+```neosfusion
+obj {
     someProperty = 'value' 
 }
 // is the same as
 obj.someProperty = 'value'
 ```
 
-### Clear property
-```php
+### Clear property 
+
+```neosfusion
 obj {
     myProp >
 }
@@ -47,49 +54,53 @@ obj.myProp >
 ```
 
 ## Prototypes
-### Definition
-```php
+
+### Definition 
+
+```neosfusion
 prototype(MyCustomComponent) {
     myProp = 'Some value'
 }
 ```
 
 ### Extension
-```php{1}
+
+```neosfusion
 prototype(MyCustomComponent) < prototype(Component) {
     …
 }
 ```
 
-#### Hierarchical override
-```php{2}
+### Hierarchical override 
+
+```neosfusion
 prototype(Book) < prototype(Component) {
     prototype(Input).attributes.type = 'email'
 }
 ```
+
 Override type attribute of all `Input` Prototypes inside `Book` to "email"
 
-## Decorators / meta properties
-For every property you can define decorators. For instance you can hide a property by defining a `@if` decorator and
-setting it to false:
+## Decorators / meta properties 
 
-#### Example
-```php
+For every property you can define decorators / meta properties. For instance you can hide a property by defining a `@if` decorator and setting it to false:
+
+### @if
+
+##### Example
+
+```neosfusion
 prototype(MyComponent) < prototype(Fusion:Component) {
     myProp = 'value'
     myProp.@if.someKeyToIdentifyThisDecorator = false
     renderer = ${'String: ' + props.myProp}
 }
 ```
-#### Preview
 
-[String: ]{.preview}
+##### Preview
 
-### @if
+String:
+
 ### @apply
-### @process
-### @position
-### @context
-### @cache
-### @class
-### @execptionHandler
+
+*   [Learn more about **@apply** in the fusion guide](/guide/manual/rendering/fusion#id-)

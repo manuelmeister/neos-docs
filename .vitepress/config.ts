@@ -8,10 +8,11 @@ export default defineConfigWithTheme<DefaultTheme.Config>({
     title: 'Neos Dev Docs',
     description: 'Neos CMS Developer Documentation unofficial beta',
     head: [
-        ['meta', { name: 'tags', content: 'neos, docs, fusion, afx, developer, code' }]
+        ['meta', { name: 'tags', content: 'neos, docs, fusion, afx, developer, code, unofficial' }]
     ],
     srcDir: '.',
-    base: process.env.NODE_ENV === 'production' ? '/neos-docs' : '/',
+    //base: process.env.NODE_ENV === 'production' ? '/neos-docs' : '/',
+    base: '/',
     scrollOffset: 'header',
     markdown: {
         config: (md) => {

@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3294399-1478-45b4-9401-b7e56e4f3233" name="Changes" comment="Add beta badge to indicate affiliation">
+      <change beforePath="$PROJECT_DIR$/.vitepress/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/theme/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/theme/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/fusion/objects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/fusion/syntax.md" beforeDir="false" afterPath="$PROJECT_DIR$/api/fusion/syntax.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/advanced/additional-features.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/advanced/best-practices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/advanced/extending-functionality.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/advanced/extending-ui.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/advanced/flow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/essentials.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/essentials/assets.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/essentials/backend-ui.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/essentials/concepts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/essentials/database.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/essentials/rendering.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/flow/overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/install.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/install/ddev-localbeach.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/install/docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/install/manual.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/quickstart.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/rendering/afx.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/rendering/eel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/rendering/fluid.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/rendering/fusion.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/tooling/cli.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/tooling/ide.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide/tooling/services.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorials.md" beforeDir="false" afterPath="$PROJECT_DIR$/tutorials.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="Add link to afx converter" />
+        <option name="rewordedMessage" value="Complete developer services" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="bf7eca8bb25a2fe378f36158233b8c2ea942c28d" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vitepress/config.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vitepress/theme/components/Example.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vitepress/theme/components/Layout.vue" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vitepress/theme/custom.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.vitepress/theme/index.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28Z600j06Gk5KvzU0TPBa1CX8Kw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "javascript.nodejs.core.library.configured.version": "16.16.0",
+    "javascript.nodejs.core.library.typings.version": "16.18.26",
+    "last_opened_file_path": "/Users/manuel.meister/WebstormProjects/neos-docs",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "/Applications/JB/apps/WebStorm/ch-0/221.5787.30/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTML",
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/.vitepress/theme/components" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/.vitepress/theme" />
+      <recent name="$PROJECT_DIR$/examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$/docs/guide" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.docs:build">
+    <configuration name="docs:build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="docs:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="docs:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.docs:build" />
+        <item itemvalue="npm.docs:dev" />
+        <item itemvalue="npm.docs:build" />
+        <item itemvalue="npm.docs:dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3294399-1478-45b4-9401-b7e56e4f3233" name="Changes" comment="" />
+      <created>1651411533100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651411533100</updated>
+      <workItem from="1651411534179" duration="8675000" />
+      <workItem from="1651420395838" duration="9238000" />
+      <workItem from="1651473297027" duration="2694000" />
+      <workItem from="1651476084459" duration="4673000" />
+      <workItem from="1651562218364" duration="7848000" />
+      <workItem from="1651576334384" duration="1084000" />
+      <workItem from="1651577451780" duration="1114000" />
+      <workItem from="1651578574932" duration="4196000" />
+      <workItem from="1651582880635" duration="3790000" />
+      <workItem from="1651587153014" duration="3603000" />
+      <workItem from="1651648265795" duration="3290000" />
+      <workItem from="1651653762765" duration="2625000" />
+      <workItem from="1651656453288" duration="1150000" />
+      <workItem from="1651657653688" duration="375000" />
+      <workItem from="1651658054360" duration="4042000" />
+      <workItem from="1651668284977" duration="4721000" />
+      <workItem from="1651675516790" duration="981000" />
+      <workItem from="1651676537225" duration="592000" />
+      <workItem from="1651677130902" duration="20013000" />
+      <workItem from="1652105140388" duration="2987000" />
+      <workItem from="1652108165330" duration="140000" />
+      <workItem from="1652108348317" duration="25000" />
+      <workItem from="1652108382057" duration="1366000" />
+      <workItem from="1652109848899" duration="4976000" />
+      <workItem from="1652167213468" duration="2589000" />
+      <workItem from="1652172790635" duration="2734000" />
+      <workItem from="1652202320301" duration="6065000" />
+      <workItem from="1652208479258" duration="5821000" />
+      <workItem from="1652377313677" duration="3700000" />
+      <workItem from="1652381093740" duration="2197000" />
+      <workItem from="1652435475338" duration="15400000" />
+      <workItem from="1652684171170" duration="10585000" />
+      <workItem from="1652798380724" duration="1201000" />
+      <workItem from="1653294296870" duration="1798000" />
+      <workItem from="1653898033663" duration="20485000" />
+      <workItem from="1653981934514" duration="881000" />
+      <workItem from="1654066548363" duration="3074000" />
+      <workItem from="1654071370607" duration="9714000" />
+      <workItem from="1654085248458" duration="6855000" />
+      <workItem from="1654092581751" duration="4117000" />
+      <workItem from="1655103636931" duration="611000" />
+      <workItem from="1661245605370" duration="12144000" />
+      <workItem from="1661776499378" duration="2470000" />
+      <workItem from="1662454100694" duration="605000" />
+      <workItem from="1665993305762" duration="10240000" />
+      <workItem from="1669711889904" duration="1571000" />
+      <workItem from="1683552693009" duration="150000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add first idea &amp; structure">
+      <created>1651676305763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676305763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v0.0.1">
+      <created>1651676664644</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651676664644</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add automatic deployment">
+      <created>1651684637001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651684637001</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add automatic deployment">
+      <created>1651684752385</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651684752385</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add automatic deployment">
+      <created>1651684933092</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651684933092</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add automatic deployment">
+      <created>1651685032944</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651685032944</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add automatic deployment">
+      <created>1651685475870</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651685475870</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Add FusionPen examples">
+      <created>1652205911334</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652205911334</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add FusionPen examples">
+      <created>1652205983244</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652205983244</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Replace tutorial with tutorials overview">
+      <created>1652206096688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1652206096688</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Complete first draft of introduction">
+      <created>1652206269866</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652206269866</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Complete first draft of introduction">
+      <created>1652206299228</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1652206299228</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Improve core concepts">
+      <created>1652207288545</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1652207288545</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Improve core concepts">
+      <created>1652208999267</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1652208999267</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Improve fusion syntax and introduction">
+      <created>1652209308620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1652209308620</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fixup! Add FusionPen examples">
+      <created>1652209866772</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1652209866772</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add link to afx converter">
+      <created>1652213447481</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1652213447481</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Complete developer services">
+      <created>1652252882744</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1652252882744</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Remove twig reference from fusion explanation">
+      <created>1652380509727</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1652380509727</updated>
+    </task>
+    <task id="LOCAL-00020" summary="First draft for the database introduction">
+      <created>1652381554113</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1652381554113</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Improve contrast for blockquote">
+      <created>1652447682369</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1652447682369</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add disclaimer to fusion detail page">
+      <created>1652641060331</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1652641060331</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add demo video of neos backend">
+      <created>1652641103589</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1652641103589</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add demo video of neos backend">
+      <created>1652641198442</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1652641198442</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Optimize logo on home">
+      <created>1653910034053</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910034053</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add missing namespace `Neos.`">
+      <created>1653910074064</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910074064</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Improve description for database concept">
+      <created>1653910176220</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910176220</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add rendering basic explanation">
+      <created>1653910209138</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910209138</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add composer create project to manual setup">
+      <created>1653910246423</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910246423</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add explanation of what neos is from a technical perspective">
+      <created>1653910289703</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910289703</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add explanation how dependencies and packages are organized">
+      <created>1653910318949</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910318949</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Improve core concept explanation">
+      <created>1653910334045</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1653910334045</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Improve loading speed">
+      <created>1653911056412</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1653911056412</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Improve loading speed">
+      <created>1653911146674</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1653911146674</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Improve loading speed">
+      <created>1653911322396</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1653911322396</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Move fonts to same origin">
+      <created>1653912131300</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1653912131300</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Move fonts to same origin">
+      <created>1653912403101</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1653912403101</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Move small navbar logo to repo">
+      <created>1653913272501</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1653913272501</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add sitemap">
+      <created>1654077212706</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1654077212706</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add beta badge to indicate state and add unofficial disclaimer">
+      <created>1654084819503</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1654084819503</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Improve fusion api object reference">
+      <created>1654096630815</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1654096630815</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Improve fusion api object reference">
+      <created>1654096693921</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1654096693921</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Improve core concepts" />
+    <MESSAGE value="Improve fusion syntax and introduction" />
+    <MESSAGE value="fixup! Add FusionPen examples" />
+    <MESSAGE value="Add link to afx converter" />
+    <MESSAGE value="Complete developer services" />
+    <MESSAGE value="Remove twig reference from fusion explanation" />
+    <MESSAGE value="First draft for the database introduction" />
+    <MESSAGE value="Improve contrast for blockquote" />
+    <MESSAGE value="Add disclaimer to fusion detail page" />
+    <MESSAGE value="Add demo video of neos backend" />
+    <MESSAGE value="Optimize logo on home" />
+    <MESSAGE value="Add missing namespace `Neos.`" />
+    <MESSAGE value="Improve description for database concept" />
+    <MESSAGE value="Add rendering basic explanation" />
+    <MESSAGE value="Add composer create project to manual setup" />
+    <MESSAGE value="Add explanation of what neos is from a technical perspective" />
+    <MESSAGE value="Add explanation how dependencies and packages are organized" />
+    <MESSAGE value="Improve core concept explanation" />
+    <MESSAGE value="Improve loading speed" />
+    <MESSAGE value="Move fonts to same origin" />
+    <MESSAGE value="Move small navbar logo to repo" />
+    <MESSAGE value="Add sitemap" />
+    <MESSAGE value="Add beta badge to indicate state and add unofficial disclaimer" />
+    <MESSAGE value="Add beta badge to indicate affiliation" />
+    <MESSAGE value="Improve fusion api object reference" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve fusion api object reference" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/vite-plugin-sitemap/dist/index.js</url>
+          <line>9026</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/vite-plugin-sitemap/dist/index.js</url>
+          <line>9025</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
